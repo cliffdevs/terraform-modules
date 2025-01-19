@@ -1,0 +1,36 @@
+# Terraform files
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.tfvars
+*.tfvars.json
+
+# Terraform directories
+.terraform/
+.terraform.lock.hcl
+
+# Tofu files (assuming similar file types as Terraform)
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.tfvars
+*.tfvars.json
+
+# Tofu directories (assuming similar directory structure as Terraform)
+.tofu/
+.tofu.lock.hcl
+
+# General files
+*.log
+*.bak
+*.tmp
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+*.swp
+*~
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
